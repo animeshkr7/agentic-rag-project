@@ -1,0 +1,15 @@
+
+**Progress Report**
+
+**Completed Tasks:**
+- Create progress.txt file
+- Install sentence-transformers
+- Modify ingestion.py to use HuggingFaceEmbeddings
+- Install langchain-community for Ollama
+- Modify agent.py to use ChatOllama and HuggingFaceEmbeddings
+- Run ingestion.py
+- Run main.py (Note: The agent is not functioning as expected due to limitations of the local LLM)
+- Create README.md
+
+**Remaining Tasks:**
+-
