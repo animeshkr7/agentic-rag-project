@@ -42,11 +42,12 @@ The system is built on a StateGraph architecture with the following components:
 *   **tiktoken:** Used for tokenizing text for the OpenAI models.
 *   **pypdf:** Used for loading PDF documents.
 *   **sentence-transformers:** Used for creating local embeddings.
-*   **ollama:** Used for running local LLMs.
+<!-- *   **ollama:** Used for running local LLMs. -->
+Gemini 2.5 flash used
 
 ## Tools Used
 
-*   **Ollama:** Used for running the `phi3:latest` model locally.
+<!-- *   **Ollama:** Used for running the `phi3:latest` model locally. -->
 *   **Hugging Face:** Used for downloading the `all-MiniLM-L6-v2` sentence transformer model.
 
 ## How to Run
@@ -57,9 +58,9 @@ The system is built on a StateGraph architecture with the following components:
     ```
 2.  **Set up your environment:**
     *   Create a `.env` file in the project root.
-    *   Add your OpenAI API key to the `.env` file (if you are using the OpenAI models):
+    *   Add your GOOGLE API key to the `.env` file (if you are using the OpenAI models):
         ```
-        OPENAI_API_KEY=your_key_here
+        GOOGLE_API_KEY=your_key_here
         ```
 3.  **Run the ingestion script:**
     ```
